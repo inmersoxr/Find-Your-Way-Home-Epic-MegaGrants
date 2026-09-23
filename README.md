@@ -1,22 +1,42 @@
-# Find Your Way Home — official web experience
+# Find Your Way Home
 
-A static, responsive editorial website for the surreal puzzle game. Open `index.html` locally through a static server, or deploy the repository root with GitHub Pages. No build step or external JavaScript dependency is required.
+Static official project site for the surreal exploration puzzle game. No build step. GitHub Pages serves the repository root.
 
-## Connect the film and playable demo
+## Content contract
 
-The two 16:9 canvases are independent. Edit `media.json` when the assets are ready:
+Read `NARRATIVE.md` before editing. The central premise is a failed return: crossing a threshold again does not restore the previous location. Ecuador is the first universe, with worldwide expansion possible. Do not invent final puzzle rules or confuse concept imagery with completed gameplay.
+
+## Files
+
+- `index.html`: pitch narrative, illustrated journey, route diagram, production information and media canvases.
+- `style.css`: responsive editorial layout, sticky sequence and motion preferences.
+- `script.js`: six documentary location entries, journal entries, scroll-driven scene selection and media loading.
+- `media.json`: future film and demo configuration.
+- `NARRATIVE.md`: project intent and approved distinctions.
+- `PHOTO_CREDITS.json` and `credits.html`: documentary attribution.
+- `CONCEPT_ASSETS.md`: generated concept provenance and prompts.
+
+## Film and playable prototype
+
+Edit only `media.json` when ready:
 
 ```json
 {
-  "film": { "type": "video", "src": "assets/project-film.mp4", "poster": "assets/film-poster.webp" },
-  "demo": { "type": "embed", "src": "https://your-demo.example/play" }
+  "film": {"type":"video", "src":"assets/project-film.mp4", "poster":"assets/film-poster.webp"},
+  "demo": {"type":"embed", "src":"https://your-demo.example/play"}
 }
 ```
 
-`type: "video"` uses a native player. `type: "embed"` uses an iframe; the provider must allow embedding. Setting either entry to `null` restores its designed production state. Local video files can also be used for the demo. For GitHub Pages, use repository-relative asset paths and check file size limits before adding a large film.
+`video` uses native controls; `embed` uses an iframe whose provider must permit embedding. A null entry retains the production placeholder. The canvases are independent and maintain a 16:9 ratio.
 
-## Content and images
+## Journal
 
-`script.js` holds the Ecuador world sequence and journal chapter titles. Add journal entries and captions there, or move them to JSON when the production log grows. `assets/*-source.webp` are sourced documentary photographs; attribution and licensing are in `credits.html` and `PHOTO_CREDITS.json`. The six other WebP images are generated concept visualizations and are labeled as such on the page. They do not claim to be actual gameplay or documentary photographs. Replace individual images by keeping the same filename, or update the references in `index.html` and `script.js`.
+The `chapters` array in `script.js` supplies the seven expandable chapters. Current text describes planned work. Replace it with documented results as production progresses. Rich content can be appended within each generated `.journal-entry`; `.journal-media` supports photographs and video.
 
-The page uses native lazy loading, compressed WebP, IntersectionObserver, limited scroll transforms, semantic sections and reduced-motion support. Test through a local HTTP server (`python3 -m http.server 8000`) because `media.json` is fetched separately.
+## Visual assets
+
+Documentary photographs are curated Ecuadorian references. `assets/journey-states.webp` is a generated four-frame concept storyboard. CSS selects its panels without changing the original image. It illustrates a possible progression, not exact final locations or game footage. Earlier portal concept files remain archived but are no longer used on the main page.
+
+## Checks
+
+Run `node --check script.js`. Use an HTTP server for local viewing (`python3 -m http.server 8000`); loading media configuration requires HTTP. Review desktop and mobile, anchors, narrative frame changes, reduced motion, journal keyboard operation, and optional media before a release.
