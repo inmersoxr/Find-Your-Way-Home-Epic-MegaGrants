@@ -5,3 +5,5 @@
 
 /* The rainforest is shown as a place with depth and a specific threshold, not a generic green texture. */
 .world-panel.world-amazon .world-inset{position:absolute;z-index:2;right:7%;top:9%;width:27%;height:68%;padding:8px 8px 31px;background:#e6e4da;box-shadow:0 20px 50px #07170e77;transform:rotate(3deg)}.world-inset img{position:relative;inset:auto;width:100%;height:100%;filter:none!important;transform:none!important;object-fit:cover}.world-inset span{display:block;color:#1b251c;font-size:10px;letter-spacing:.15em;padding-top:8px}.world-panel.world-amazon .world-panel-content{z-index:3}.world-panel.world-amazon .world-panel-content p{max-width:250px}@media(max-width:800px){.world-panel.world-amazon .world-inset{right:6%;top:12%;width:42%;height:43%;padding:5px 5px 25px}.world-inset span{font-size:7px}}@media(max-width:480px){.worlds-intro h2{font-size:13vw}.world-panel-content h3{font-size:15vw}.world-panel.world-amazon .world-inset{width:45%;height:38%}}
+
+.world-panel.world-amazon .world-counter{right:auto;left:5vw}
