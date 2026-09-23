@@ -1,10 +1,10 @@
 const worlds = [
-  {number:'01',name:'CUENCA',region:'THE ANDES / AZUAY',detail:'The New Cathedral, historic streets, houses and the first ordinary door.',image:'cuenca-source.webp',alt:'Documentary photograph of the New Cathedral in Cuenca'},
-  {number:'02',name:'GUAYAQUIL',region:'THE COAST / GUAYAS',detail:'Las Peñas. A different city, light and climate on the other side.',image:'guayaquil-source.webp',alt:'Colorful wooden houses on a cobblestone street in Las Peñas, Guayaquil'},
-  {number:'03',name:'ANDES',region:'THE HIGHLANDS / COTOPAXI',detail:'Páramo, volcanic ground and a horizon that changes the scale of everything.',image:'andes-source.webp',alt:'Documentary photograph of Ecuadorian Andean páramo'},
-  {number:'04',name:'AMAZON',region:'THE RAINFOREST / AMAZONÍA',detail:'A living river system, deep forest and the waterfall at Tálag.',image:'amazon-source.webp',secondary:'amazon-falls.webp',alt:'An Ecuadorian Amazon river flowing through dense rainforest'},
-  {number:'05',name:'PACIFIC',region:'THE COAST / MANABÍ',detail:'Dry vegetation, ocean air and the wide edge of the continent.',image:'pacific-source.webp',alt:'Documentary photograph of the Ecuadorian Pacific coast'},
-  {number:'06',name:'GALÁPAGOS',region:'THE ISLANDS / GALÁPAGOS',detail:'Lava, ocean and an isolated geography that feels like another planet.',image:'galapagos-source.webp',alt:'The beach and Pinnacle Rock on Bartolomé Island, Galápagos'}
+  {number:'01',name:'CUENCA',region:'THE ANDES / AZUAY',detail:'The New Cathedral, historic streets, houses and the first ordinary door.',image:'cuenca-source.webp?v=2',alt:'Documentary photograph of the New Cathedral in Cuenca'},
+  {number:'02',name:'GUAYAQUIL',region:'THE COAST / GUAYAS',detail:'Las Peñas. A different city, light and climate on the other side.',image:'guayaquil-source.webp?v=2',alt:'Colorful wooden houses on a cobblestone street in Las Peñas, Guayaquil'},
+  {number:'03',name:'ANDES',region:'THE HIGHLANDS / COTOPAXI',detail:'Páramo, volcanic ground and a horizon that changes the scale of everything.',image:'andes-source.webp?v=2',alt:'Documentary photograph of Ecuadorian Andean páramo'},
+  {number:'04',name:'AMAZON',region:'THE RAINFOREST / AMAZONÍA',detail:'A living river system, deep forest and the waterfall at Tálag.',image:'amazon-source.webp?v=2',secondary:'amazon-falls.webp?v=2',alt:'An Ecuadorian Amazon river flowing through dense rainforest'},
+  {number:'05',name:'PACIFIC',region:'THE COAST / MANABÍ',detail:'Dry vegetation, ocean air and the wide edge of the continent.',image:'pacific-source.webp?v=2',alt:'Documentary photograph of the Ecuadorian Pacific coast'},
+  {number:'06',name:'GALÁPAGOS',region:'THE ISLANDS / GALÁPAGOS',detail:'Lava, ocean and an isolated geography that feels like another planet.',image:'galapagos-source.webp?v=2',alt:'The beach and Pinnacle Rock on Bartolomé Island, Galápagos'}
 ];
 const chapters=['CAPTURING ECUADOR','BUILDING REALITY','THE FIRST DOOR','BREAKING GRAVITY','PEOPLE IN 4D','IMPOSSIBLE GEOGRAPHY','FINDING THE WAY HOME'];
 const sequence=document.querySelector('#world-sequence');
