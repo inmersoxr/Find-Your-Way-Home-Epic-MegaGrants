@@ -40,3 +40,5 @@ Documentary photographs are curated Ecuadorian references. `assets/journey-state
 ## Checks
 
 Run `node --check script.js`. Use an HTTP server for local viewing (`python3 -m http.server 8000`); loading media configuration requires HTTP. Review desktop and mobile, anchors, narrative frame changes, reduced motion, journal keyboard operation, and optional media before a release.
+
+`review.html` is an unlinked, noindex responsive review harness with 390, 768 and 1280 px iframe widths. It uses the same site files, without modifying the public experience.

@@ -42,7 +42,7 @@ let currentStep=-1,doorTimer;
 function showStep(index){
  if(index===currentStep)return;
  const previous=currentStep;currentStep=index;scene.dataset.step=String(index);
- steps.forEach((el,i)=>el.classList.toggle('active',i===index));frames.forEach((el,i)=>el.classList.toggle('active',i===index));dots.forEach((el,i)=>el.classList.toggle('active',i===index));
+ steps.forEach((el,i)=>el.classList.toggle('active',i===index));frames.forEach((el,i)=>{el.classList.toggle('active',i===index);el.setAttribute('aria-hidden',String(i!==index));});dots.forEach((el,i)=>el.classList.toggle('active',i===index));
  document.querySelector('#scene-place').textContent=sceneData[index][0];document.querySelector('#scene-route').textContent=sceneData[index][1];document.querySelector('#scene-count').textContent=`0${index+1} / 04`;
  clearTimeout(doorTimer);scene.classList.remove('opening');
  if(index===1&&previous===0&&!reduced.matches){scene.classList.add('opening');doorTimer=setTimeout(()=>scene.classList.remove('opening'),80);}
