@@ -1,14 +1,14 @@
 const worlds = [
-  {number:'01',name:'CUENCA',region:'THE ANDES / AZUAY',detail:'Historic streets, houses, patios and the first ordinary door.',image:'cuenca-source.webp',alt:'Aerial documentary photograph of El Vado in Cuenca'},
-  {number:'02',name:'GUAYAQUIL',region:'THE COAST / GUAYAS',detail:'Las Peñas. A different city, light and climate on the other side.',image:'guayaquil-source.webp',alt:'Documentary photograph of Las Peñas in Guayaquil'},
+  {number:'01',name:'CUENCA',region:'THE ANDES / AZUAY',detail:'The New Cathedral, historic streets, houses and the first ordinary door.',image:'cuenca-source.webp',alt:'Documentary photograph of the New Cathedral in Cuenca'},
+  {number:'02',name:'GUAYAQUIL',region:'THE COAST / GUAYAS',detail:'Las Peñas. A different city, light and climate on the other side.',image:'guayaquil-source.webp',alt:'Colorful wooden houses on a cobblestone street in Las Peñas, Guayaquil'},
   {number:'03',name:'ANDES',region:'THE HIGHLANDS / COTOPAXI',detail:'Páramo, volcanic ground and a horizon that changes the scale of everything.',image:'andes-source.webp',alt:'Documentary photograph of Ecuadorian Andean páramo'},
-  {number:'04',name:'AMAZON',region:'THE RAINFOREST / NAPO',detail:'Rivers, dense vegetation and an entirely different kind of space.',image:'amazon-source.webp',alt:'Documentary photograph of the Napo River near Tena'},
+  {number:'04',name:'AMAZON',region:'THE RAINFOREST / AMAZONÍA',detail:'A living river system, deep forest and the waterfall at Tálag.',image:'amazon-source.webp',secondary:'amazon-falls.webp',alt:'An Ecuadorian Amazon river flowing through dense rainforest'},
   {number:'05',name:'PACIFIC',region:'THE COAST / MANABÍ',detail:'Dry vegetation, ocean air and the wide edge of the continent.',image:'pacific-source.webp',alt:'Documentary photograph of the Ecuadorian Pacific coast'},
-  {number:'06',name:'GALÁPAGOS',region:'THE ISLANDS / GALÁPAGOS',detail:'Lava, ocean and an isolated geography that feels like another planet.',image:'galapagos-source.webp',alt:'Documentary photograph of volcanic lava formations in Galápagos'}
+  {number:'06',name:'GALÁPAGOS',region:'THE ISLANDS / GALÁPAGOS',detail:'Lava, ocean and an isolated geography that feels like another planet.',image:'galapagos-source.webp',alt:'The beach and Pinnacle Rock on Bartolomé Island, Galápagos'}
 ];
 const chapters=['CAPTURING ECUADOR','BUILDING REALITY','THE FIRST DOOR','BREAKING GRAVITY','PEOPLE IN 4D','IMPOSSIBLE GEOGRAPHY','FINDING THE WAY HOME'];
 const sequence=document.querySelector('#world-sequence');
-sequence.innerHTML=worlds.map(w=>`<article class="world-panel"><img src="assets/${w.image}" alt="${w.alt}" loading="lazy"><span class="world-counter">${w.number} / 06</span><div class="world-panel-content"><div><span class="meta">${w.region} · DOCUMENTARY IMAGE</span><h3>${w.name}</h3></div><p>${w.detail}</p></div><span class="world-credit">A REAL PLACE / A POSSIBLE WORLD</span></article>`).join('');
+sequence.innerHTML=worlds.map(w=>`<article class="world-panel ${w.secondary ? 'world-amazon' : ''}"><img src="assets/${w.image}" alt="${w.alt}" loading="lazy">${w.secondary ? `<div class="world-inset"><img src="assets/${w.secondary}" alt="Pimpilala waterfall near Tálag, Ecuador" loading="lazy"><span>TÁLAG / A SECOND VIEW</span></div>` : ''}<span class="world-counter">${w.number} / 06</span><div class="world-panel-content"><div><span class="meta">${w.region} · DOCUMENTARY IMAGE</span><h3>${w.name}</h3></div><p>${w.detail}</p></div><span class="world-credit">A REAL PLACE / A POSSIBLE WORLD</span></article>`).join('');
 document.querySelector('#journal-list').innerHTML=chapters.map((c,i)=>`<div class="journal-row"><span>${String(i+1).padStart(2,'0')}</span><strong>${c}</strong><small>CHAPTER IN DEVELOPMENT</small></div>`).join('');
 document.querySelector('#year').textContent=new Date().getFullYear();
 

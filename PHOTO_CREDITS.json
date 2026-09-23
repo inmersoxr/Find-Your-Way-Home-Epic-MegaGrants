@@ -1,57 +1,66 @@
 [
   {
     "file": "cuenca-source.webp",
-    "title": "File:Vista aérea del barrio El Vado, Cuenca 01.jpg",
-    "author": "Pablo Zuñiga",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_barrio_El_Vado,_Cuenca_01.jpg",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Vista_a%C3%A9rea_del_barrio_El_Vado%2C_Cuenca_01.jpg/1920px-Vista_a%C3%A9rea_del_barrio_El_Vado%2C_Cuenca_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    "title": "File:Catedral de la Inmaculada Concepción, Cuenca.jpg",
+    "author": "Bernard Gagnon",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Catedral_de_la_Inmaculada_Concepci%C3%B3n,_Cuenca.jpg",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Catedral_de_la_Inmaculada_Concepci%C3%B3n%2C_Cuenca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
   },
   {
     "file": "guayaquil-source.webp",
-    "title": "File:Calles Barrio Las Peñas, Guayaquil, Ecuador.jpg",
-    "author": "Diegoarielvega",
+    "title": "File:Las peñas st.jpg",
+    "author": "Nth",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Calles_Barrio_Las_Pe%C3%B1as,_Guayaquil,_Ecuador.jpg",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Calles_Barrio_Las_Pe%C3%B1as%2C_Guayaquil%2C_Ecuador.jpg/1920px-Calles_Barrio_Las_Pe%C3%B1as%2C_Guayaquil%2C_Ecuador.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    "source": "https://commons.wikimedia.org/wiki/File:Las_pe%C3%B1as_st.jpg",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/8/87/Las_pe%C3%B1as_st.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
   },
   {
     "file": "andes-source.webp",
-    "title": "File:Cotopaxi Nationalpark Ecuador105.JPG",
-    "author": "Arabsalam",
+    "title": "File:Cotopaxi National Park Cotopaxi seen from the trail around Laguna de Limpiopungo 02.jpg",
+    "author": "Ymblanter",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cotopaxi_Nationalpark_Ecuador105.JPG",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Cotopaxi_Nationalpark_Ecuador105.JPG/1920px-Cotopaxi_Nationalpark_Ecuador105.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    "source": "https://commons.wikimedia.org/wiki/File:Cotopaxi_National_Park_Cotopaxi_seen_from_the_trail_around_Laguna_de_Limpiopungo_02.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Cotopaxi_National_Park_Cotopaxi_seen_from_the_trail_around_Laguna_de_Limpiopungo_02.jpg/1920px-Cotopaxi_National_Park_Cotopaxi_seen_from_the_trail_around_Laguna_de_Limpiopungo_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   },
   {
     "file": "amazon-source.webp",
-    "title": "File:Napo river at Puerto Napo town.jpg",
-    "author": "Gabriel Gaona",
+    "title": "File:Ecuadorian Amazon.jpg",
+    "author": "Dallas Krentzel",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ecuadorian_Amazon.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Ecuadorian_Amazon.jpg/1920px-Ecuadorian_Amazon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "file": "amazon-falls.webp",
+    "title": "File:Cascada Pimpilala, Tálag.jpg",
+    "author": "David C. S.",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Napo_river_at_Puerto_Napo_town.jpg",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Napo_river_at_Puerto_Napo_town.jpg/1920px-Napo_river_at_Puerto_Napo_town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    "source": "https://commons.wikimedia.org/wiki/File:Cascada_Pimpilala,_T%C3%A1lag.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Cascada_Pimpilala%2C_T%C3%A1lag.jpg/1920px-Cascada_Pimpilala%2C_T%C3%A1lag.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   },
   {
     "file": "pacific-source.webp",
-    "title": "File:Ecuador Coast southof PuertoLopez.JPG",
-    "author": "",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:Ecuador_Coast_southof_PuertoLopez.JPG",
-    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Ecuador_Coast_southof_PuertoLopez.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    "title": "File:Playa los Frailes.JPG",
+    "author": "Spring Travel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Playa_los_Frailes.JPG",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Playa_los_Frailes.JPG/1920px-Playa_los_Frailes.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   },
   {
     "file": "galapagos-source.webp",
-    "title": "File:Final land excursion to Isla Bartomome and the lava beds on the E coast of Isla San Salvadore - incredible patterns in the lava (16503743160).jpg",
-    "author": "Murray Foubister",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Final_land_excursion_to_Isla_Bartomome_and_the_lava_beds_on_the_E_coast_of_Isla_San_Salvadore_-_incredible_patterns_in_the_lava_(16503743160).jpg",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Final_land_excursion_to_Isla_Bartomome_and_the_lava_beds_on_the_E_coast_of_Isla_San_Salvadore_-_incredible_patterns_in_the_lava_%2816503743160%29.jpg/1920px-Final_land_excursion_to_Isla_Bartomome_and_the_lava_beds_on_the_E_coast_of_Isla_San_Salvadore_-_incredible_patterns_in_the_lava_%2816503743160%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    "title": "File:Bartolome Island Galapagos Ecuador (245374961).jpeg",
+    "author": "Bhasker Thodla",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bartolome_Island_Galapagos_Ecuador_(245374961).jpeg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Bartolome_Island_Galapagos_Ecuador_%28245374961%29.jpeg/1920px-Bartolome_Island_Galapagos_Ecuador_%28245374961%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   },
   {
     "file": "riobamba-source.webp",
